@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+../dist/
+
+# Development
+.DS_Store
+*.local
+
+# Logs
+*.log

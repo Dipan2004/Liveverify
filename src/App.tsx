@@ -6,6 +6,7 @@ import ResultCard from './components/ResultCard'
 import { analyzeImage, verifyMedia } from './utils/api'
 import type { AnalysisResult } from './types'
 
+
 function App() {
   const [result, setResult] = useState<AnalysisResult | null>(null)
   const [isAnalyzing, setIsAnalyzing] = useState(false)
